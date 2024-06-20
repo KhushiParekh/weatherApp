@@ -1,0 +1,28 @@
+stp 1 basic html css of entire thing that u are seeing
+stp 2 made the function async function checkWeather(cityN)
+stp 3 made the fetch api call to openweather api
+stp 4 made the function to display the weather data
+stp 5 made the function to handle the error of not gettiing the correct word
+
+Async Function (async): Declares a function that can perform asynchronous operations.
+Await (await): Pauses the function execution until an asynchronous operation (like fetch() or response.json()) completes.
+Role: async allows your function (checkWeather) to fetch weather data without blocking other code. await ensures you can work with the fetched JSON data (data) only after it's fully loaded, simplifying handling of asynchronous tasks in JavaScript.
+why:Error handling with async/await is more intuitive compared to traditional callback-based or promise-based approaches.
+Async functions execute sequentially by default, meaning statements within the function are executed one after another. This simplifies control flow compared to non-sequential asynchronous code.
+when:Fetching Data from APIs:
+     Working with Promises:When dealing with functions that return promises (e.g., reading files asynchronously, interacting with databases, etc.), async functions streamline handling of these promises using await
+     Event Handling:Async functions are useful when handling events that may trigger asynchronous operations, such as user interactions, timer events, or response events in web applications.
+     Concurrency and Parallelism:In scenarios where you need to perform multiple asynchronous tasks concurrently and wait for all of them to complete, async functions combined with Promise.all() provide a clean solution.
+
+
+things that can be done more in this project:
+1. Add more weather details like feels like etc. and also if poss throughout the day or atleast 4 parts of the day weather
+2.changing bg with either day/night in that place or with the weather of that place
+3. adding more animations and transitions
+4. making it more responsive for different devices
+5. adding more comments and making it more readable
+6. adding more functionalities like weather alerts etc.
+
+
+
+
